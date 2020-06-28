@@ -26,7 +26,7 @@ export enum KeybindingAction {
   FRAME_BACK = 'FRAME_BACK',
 }
 
-type KeybindingSettings = {
+interface KeybindingSettings {
   [key: string]: KeybindingAction[]
 }
 
